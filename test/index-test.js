@@ -27,7 +27,7 @@ describe('logShout(string)', function() {
     console.log.restore()
   })
 })
-function lotShout(string) {
+function logShout(string) {
   console.log(sting.toUpperCase())
 }
 describe('logWhisper(string)', function() {
