@@ -59,5 +59,5 @@ describe('sayHiToGrandma(string)', function() {
 })
 function sayHiToGrandma(string) {
   if(sting===string.toUpperCase)
-    
+     return "YES INDEED!"
 }
