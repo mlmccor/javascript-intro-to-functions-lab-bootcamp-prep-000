@@ -58,6 +58,6 @@ describe('sayHiToGrandma(string)', function() {
   })
 })
 function sayHiToGrandma(string) {
-  if(string===string.toUpperCase)
+  if(string.toUpperCase==='HELLO')
      return ("YES INDEED!")
 }
