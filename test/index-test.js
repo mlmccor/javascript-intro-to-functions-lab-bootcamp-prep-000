@@ -59,6 +59,9 @@ describe('sayHiToGrandma(string)', function() {
 })
 function sayHiToGrandma(string) {
   if(string.toUpperCase()=== 'HELLO')
-     return ("YES INDEED!")
-  else
+    return ("YES INDEED!")
+  else if(string.toLowerCase()=== 'hello')
+    return ("I can't hear you!")
+  else if(string=== "I love you, Grandma.")
+    return ("I love you, too.")
 }
